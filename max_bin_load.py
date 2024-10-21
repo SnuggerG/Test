@@ -88,6 +88,3 @@ def run_bin_total_tab():
         st.write(f"**Total HL**: {totals['Total HL']}")
         st.write(f"**Total Loose**: {totals['Total Loose']}")
 
-# Running the Bin packing tab standalone
-if __name__ == "__main__":
-    run_bin_total_tab()
