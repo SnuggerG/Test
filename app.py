@@ -56,9 +56,9 @@ def run_cabin_baggage_calculator():
     st.markdown("---")  # Separator line
 
     # Predefined Conditions Section
-    st.subheader("Vooraf gedefinieerde voorwaarden:")
-    st.write("_Vooraf gedefinieerde voorwaarden: Dit zijn de totale capaciteiten, uitgedrukt in cabinebagage, handbagage en losse items. "
-              "De waarden zijn standaardinstellingen die kunnen worden aangepast om te zien hoeveel van elk type bagage in de overhead bins past._")
+    st.subheader("Vooraf gedefinieerde waardens:")
+    st.write("_Vooraf gedefinieerde waardens: Dit zijn de totale capaciteiten, uitgedrukt in cabinebagage, handbagage en losse items. "
+              "De waardens zijn standaardinstellingen die kunnen worden aangepast om te zien hoeveel van elk type bagage in de overhead bins past._")
 
 
     # Retrieve maximum baggage capacities from session state or set defaults
@@ -72,7 +72,7 @@ def run_cabin_baggage_calculator():
     st.write(f"Maximale losse items (items): **{max_loose_items}**")
 
     # Adjust Predefined Parameters Note
-    st.markdown("_Als u de vooraf gedefinieerde voorwaarden wilt wijzigen, bezoek dan de (Maximale Capaciteit Calculator) pagina._")
+    st.markdown("_Als u de vooraf gedefinieerde waardens wilt wijzigen, bezoek dan de (Maximale Capaciteit Calculator) pagina._")
     st.markdown("---")  # Separator line
 
     # Input Parameters Section
