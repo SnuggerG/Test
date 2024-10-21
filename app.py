@@ -1,7 +1,6 @@
 import streamlit as st
 from max_bin_load import run_bin_total_tab
 from cabin_baggage import run_cabin_baggage_tab
-from dynamic_bin_calculator import run_dynamic_bin_calculator  # Import the new side program
 
 # Main Streamlit app
 def main():
