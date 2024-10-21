@@ -9,7 +9,7 @@ def main():
     st.title('Optimization and Logistics Tool')
 
     # Creating tabs
-    tab_options = ["Max total Calculator", "Cabin Baggage Calculator", "Dynamic Bin Calculator"]
+    tab_options = ["Max total Calculator", "Cabin Baggage Calculator"]
     selected_tab = st.radio("Select Functionality", tab_options)
 
     # Display selected tab based on user choice
@@ -17,8 +17,7 @@ def main():
         run_bin_total_tab()
     elif selected_tab == "Cabin Baggage Calculator":
         run_cabin_baggage_tab()
-    elif selected_tab == "Dynamic Bin Calculator":
-        run_dynamic_bin_calculator()
+   
 
 # Running the app
 if __name__ == "__main__":
